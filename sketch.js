@@ -27,7 +27,7 @@ function setup() {
     // 添加控件
     guiText.add(textConfig, 'text').onChange(drawTextAndBubbles);
     guiBG.addColor(bgConfig, 'color');
-    guiSize.add(sizeConfig, 'fontSize', 16, 150).onChange(drawTextAndBubbles);
+    guiSize.add(sizeConfig, 'fontSize', 16, 250).onChange(drawTextAndBubbles);
     guiSize.add(sizeConfig, 'bubbleSizeMin', 1, 30).onChange(drawTextAndBubbles);
     guiSize.add(sizeConfig, 'bubbleSizeMax', sizeConfig.bubbleSizeMin, 30).onChange(drawTextAndBubbles);
 
